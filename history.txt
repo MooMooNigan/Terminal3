@@ -1,0 +1,23 @@
+   40  curl -o wilders.csv https://gist.githubusercontent.com/bhubr/bc3a21a0202109beeb31c4a677e0461b/raw/d8805eb82e8aabffab3b0163596c734f376617d0/wilders.csv
+   41  curl -o ~/Documents/wilders.csv https://gist.githubusercontent.com/bhubr/bc3a21a0202109beeb31c4a677e0461b/raw/d8805eb82e8aabffab3b0163596c734f376617d0/wilders.csv
+   42  grep "France,2019,PHP" ~/Documents/wilders.csv > ~/Documents/php_france_2019.csv | wc -l 
+   43  grep "France,2019,PHP" ~/Documents/wilders.csv > ~/Documents/php_france_2019.csv
+   44  wc -l ~/Documents/php_france_2019.csv > ~/Documents/php_france_2019.csv
+   45  cat ~/Documents/php_france_2019.csv 
+   46  grep "France,2019,PHP" ~/Documents/wilders.csv > ~/Documents/php_france_2019.csv
+   47  grep "France,2019,PHP" ~/Documents/wilders.csv | wc-l > ~/Documents/php_france_2019.csv
+   48  grep "France,2019,PHP" ~/Documents/wilders.csv | wc -l > ~/Documents/php_france_2019.csv
+   49  cat ~/Documents/php_france_2019.csv 
+   50  grep "JavaScript,Toulouse,Biarritz" ~/Documents/wilders.csv 
+   51  grep "JavaScript,Biarritz" ~/Documents/wilders.csv 
+   52  grep "Biarritz,JavaScript" ~/Documents/wilders.csv 
+   53  grep "Biarritz;JavaScript" ~/Documents/wilders.csv 
+   54  grep -E "Biarritz.*JavaScript|JavaScript.*Biarritz" ~/Documents/wilders.csv 
+   55  grep -E "Biarritz.*JavaScript" ~/Documents/wilders.csv 
+   56  grep -E "(Biarritz|Toulouse).*JavaScript" ~/Documents/wilders.csv 
+   57  grep -E "(Biarritz|Toulouse).*JavaScript" ~/Documents/wilders.csv > ~/Documents/javascript_biarritz_toulouse.csv
+   58  cat Documents/javascript_biarritz_toulouse.csv 
+   59  history
+   60  history | tail -n 18 > ~/Documents/history.txt 
+   61  cat Documents/history.txt 
+   62  history | tail -n 23 > ~/Documents/history.txt 
